@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.pap.rate.view.QuoteViewCard
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+<TextView
+    android:text="TextView"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/symbol_name"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:text="USD/RUB"
+    android:layout_marginStart="16dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="8dp"
+    app:layout_constraintRight_toLeftOf="@+id/share_btn"
+    android:layout_marginEnd="8dp"
+    android:layout_marginRight="8dp"
+    /><ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:srcCompat="@drawable/ic_share"
+    android:id="@+id/share_btn"
+    app:layout_constraintTop_toTopOf="@+id/symbol_name"
+    android:layout_marginEnd="16dp"
+    app:layout_constraintRight_toRightOf="parent"
+    android:layout_marginRight="16dp"
+    /><TextView
+    android:text="TextView"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/quote_text"
+    tools:text="Котировка: Котировка Котировка Котировка Котировка Котировка Котировка Котировка"
+    app:layout_constraintLeft_toLeftOf="@+id/symbol_name"
+    app:layout_constraintTop_toBottomOf="@+id/date_view"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="16dp"
+    app:layout_constraintRight_toRightOf="parent"
+    android:layout_marginRight="16dp"
+    /><TextView
+    android:text="TextView"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/date_view"
+    tools:text="24.04.2016"
+    app:layout_constraintTop_toBottomOf="@+id/symbol_name"
+    app:layout_constraintLeft_toLeftOf="@+id/symbol_name"
+    />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/separator"
+        app:layout_constraintTop_toBottomOf="@+id/quote_text"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="8dp"
+        />
+</ru.pap.rate.view.QuoteViewCard>

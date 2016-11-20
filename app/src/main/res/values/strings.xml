@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Rate</string>
+    <string name="action_symbol_index">Symbols</string>
+    <string name="quotation">Quotation</string>
+    <string name="no_selected_symbol">Select a currency ---></string>
+    <string name="list_symbol">List of currencies:</string>
+    <string name="error_load">Error sync</string>
+</resources>

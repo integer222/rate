@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rate</string>
+    <string name="quotation">Котировка</string>
+    <string name="list_symbol">Список валют:</string>
+    <string name="no_selected_symbol">Выберите валюту ---></string>
+    <string name="error_load">Ошибка загрузки</string>
+    <string name="action_symbol_index">Валюта</string>
+</resources>

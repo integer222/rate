@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="symbols_api_base_url" translatable="false">http://finance.yahoo.com</string>
+    <string name="symbol_values_api_base_url" translatable="false">https://query.yahooapis.com</string>
+    <string name="account_type" translatable="false">ru.pap.rate.account</string>
+    <string name="content_authority" translatable="false">ru.pap.rate</string>
+</resources>

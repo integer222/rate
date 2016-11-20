@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.pap.rate.view.ToolBarCustomContent xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:paddingRight="16dp"
+             android:paddingEnd="16dp"
+             android:paddingLeft="16dp"
+             android:paddingStart="16dp"
+    >
+
+    <RelativeLayout
+        android:id="@+id/title_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <TextView
+            tools:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/symbol_select_name"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+        />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/arrow_down_float"
+            android:id="@+id/imageView"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/symbol_select_name"
+            android:layout_toEndOf="@+id/symbol_select_name"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+        />
+        </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        tools:text="Name"
+        android:ems="10"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/search_symbol"
+        android:visibility="gone"
+        />
+    </RelativeLayout>
+</ru.pap.rate.view.ToolBarCustomContent>
