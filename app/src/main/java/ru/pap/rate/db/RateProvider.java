@@ -153,8 +153,8 @@ public class RateProvider extends ContentProvider {
         String limit = uri.getQueryParameter(QuoteContract.LIMIT);
         String offset = uri.getQueryParameter(QuoteContract.OFFSET);
         StringBuilder builder = new StringBuilder();
-        if (TextUtils.isEmpty(offset)) {
-            builder.append(",").append(offset);
+        if (!TextUtils.isEmpty(offset)) {
+            builder.append(offset).append(",");
         }
         if (TextUtils.isEmpty(limit)) {
             return null;
